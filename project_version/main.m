@@ -213,7 +213,7 @@ int main(int argc, char *argv[])
         [R_graph release];
         ////directed graph for S
         
-        NSSet *S_set=[[NSSet alloc] initWithObjects:@"a",@"b",@"c",@"d",@"e",@"f" nil];
+        NSSet *S_set=[[NSSet alloc]initWithObjects:@"a",@"b",@"c",@"d",@"e",@"f",nil];
         EJSGraph *S_graph =[[EJSGraph alloc] initWithSet:S_set];
         [S_graph addEdgeFrom:@"a" to:@"b"];
         [S_graph addEdgeFrom:@"b" to:@"c"];
