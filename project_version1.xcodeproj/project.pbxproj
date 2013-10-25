@@ -27,10 +27,7 @@
 		55FDD02618152A1900F7A41D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FDCFF918152A1800F7A41D /* Foundation.framework */; };
 		55FDD02E18152A1900F7A41D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55FDD02C18152A1900F7A41D /* InfoPlist.strings */; };
 		55FDD03118152A1900F7A41D /* project_versionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FDD03018152A1900F7A41D /* project_versionTests.m */; };
-		55FDD03E1815335000F7A41D /* NSLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FDD03D1815335000F7A41D /* NSLinkedList.m */; };
-		55FDD03F1815335000F7A41D /* NSLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FDD03D1815335000F7A41D /* NSLinkedList.m */; };
-		55FDD0421815377000F7A41D /* EJSGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FDD0411815377000F7A41D /* EJSGraph.m */; };
-		55FDD0431815377000F7A41D /* EJSGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FDD0411815377000F7A41D /* EJSGraph.m */; };
+		EF353E4C1819ED9800429029 /* EJSGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = EF353E4B1819ED9800429029 /* EJSGraph.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,10 +67,8 @@
 		55FDD02D18152A1900F7A41D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55FDD02F18152A1900F7A41D /* project_versionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = project_versionTests.h; sourceTree = "<group>"; };
 		55FDD03018152A1900F7A41D /* project_versionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = project_versionTests.m; sourceTree = "<group>"; };
-		55FDD03C1815335000F7A41D /* NSLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSLinkedList.h; path = ../../../NSLinkedList/NSLinkedList.h; sourceTree = "<group>"; };
-		55FDD03D1815335000F7A41D /* NSLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSLinkedList.m; path = ../../../NSLinkedList/NSLinkedList.m; sourceTree = "<group>"; };
-		55FDD0401815377000F7A41D /* EJSGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EJSGraph.h; path = ../../../EJSGraph/EJSGraph.h; sourceTree = "<group>"; };
-		55FDD0411815377000F7A41D /* EJSGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EJSGraph.m; path = ../../../EJSGraph/EJSGraph.m; sourceTree = "<group>"; };
+		EF353E4A1819ED9800429029 /* EJSGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EJSGraph.h; sourceTree = "<group>"; };
+		EF353E4B1819ED9800429029 /* EJSGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EJSGraph.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,10 +132,8 @@
 		55FDD00118152A1900F7A41D /* project_version */ = {
 			isa = PBXGroup;
 			children = (
-				55FDD0401815377000F7A41D /* EJSGraph.h */,
-				55FDD0411815377000F7A41D /* EJSGraph.m */,
-				55FDD03C1815335000F7A41D /* NSLinkedList.h */,
-				55FDD03D1815335000F7A41D /* NSLinkedList.m */,
+				EF353E4A1819ED9800429029 /* EJSGraph.h */,
+				EF353E4B1819ED9800429029 /* EJSGraph.m */,
 				55FDD00A18152A1900F7A41D /* AppDelegate.h */,
 				55FDD00B18152A1900F7A41D /* AppDelegate.m */,
 				55FDD01318152A1900F7A41D /* MainStoryboard.storyboard */,
@@ -301,8 +294,7 @@
 				55FDD00818152A1900F7A41D /* main.m in Sources */,
 				55FDD00C18152A1900F7A41D /* AppDelegate.m in Sources */,
 				55FDD01C18152A1900F7A41D /* ViewController.m in Sources */,
-				55FDD03E1815335000F7A41D /* NSLinkedList.m in Sources */,
-				55FDD0421815377000F7A41D /* EJSGraph.m in Sources */,
+				EF353E4C1819ED9800429029 /* EJSGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,8 +303,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				55FDD03118152A1900F7A41D /* project_versionTests.m in Sources */,
-				55FDD03F1815335000F7A41D /* NSLinkedList.m in Sources */,
-				55FDD0431815377000F7A41D /* EJSGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

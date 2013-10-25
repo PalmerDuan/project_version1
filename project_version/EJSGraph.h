@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 @interface EJSGraph : NSObject <NSCoding, NSFastEnumeration> {
-	NSMapTable *neighborLists;
+    NSMapTable *neighborLists;
 }
 
 + (id)graphWithSet:(NSSet *)objects;
@@ -22,7 +22,7 @@
 - (BOOL)object:(id)firstObject isConnectedToObject:(id)secondObject;
 
 - (NSSet *)allObjects;
-- (NSEnumerator	*)objectEnumerator;
+- (NSEnumerator        *)objectEnumerator;
 - (NSSet *)neighborsForObject:(id)anObject;
 - (NSEnumerator *)neighborEnumeratorForObject:(id)anObject;
 - (EJSGraph *)connectedSubgraphContainingObject:(id)anObject;
